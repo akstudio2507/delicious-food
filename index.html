@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Food | Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<!-- Back to Top Button -->
+<button id="backToTop" title="Back to Top">
+    ↑
+</button>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">Delicious Food<span>.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#why-choose">Why Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#menu" class="nav-btn">Order Now</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content container">
+                <div class="hero-text">
+                    <span class="eyebrow">WELCOME TO DELICIOUS FOOD</span>
+                    <h1>Enjoy Every Bite of <span>Delicious Food.</span></h1>
+                    <p>Fresh ingredients, amazing flavors, and unforgettable moments. Discover food made with love.</p>
+
+                    <div class="hero-buttons">
+                        <a href="#menu" class="primary-btn">Explore Menu ↗</a>
+                        <a href="#about" class="secondary-btn">Discover More</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div><strong>15+</strong><small>Years Experience</small></div>
+                        <div><strong>50+</strong><small>Food Items</small></div>
+                        <div><strong>4.9</strong><small>Customer Rating</small></div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=900" alt="Freshly prepared delicious pizza">
+                    <div class="image-label">
+                        <span>✦</span>
+                        <div><strong>Fresh & Tasty</strong><small>Made with love</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section-padding" id="about">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=900" alt="Fresh restaurant food">
+                </div>
+
+                <div class="about-text">
+                    <span class="eyebrow">ABOUT OUR RESTAURANT</span>
+                    <h2>We Serve The Best Food In Town</h2>
+                    <p>At Delicious Food, we believe every meal should be special. Our chefs prepare fresh and flavorful dishes using quality ingredients.</p>
+                    <a href="#menu" class="primary-btn">Discover Our Menu ↗</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section section-padding" id="menu">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">OUR SPECIAL MENU</span>
+                    <h2>Explore Our Popular Dishes</h2>
+                    <p>Delicious meals prepared fresh for you.</p>
+                </div>
+
+                <div class="menu-grid">
+                    <article class="food-card">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=700" alt="Italian pizza">
+                        <div class="food-info">
+                            <h3>Italian Pizza</h3>
+                            <p>Fresh cheese, tomato and herbs.</p>
+                            <div class="food-bottom"><strong>$12.00</strong><button class="add-btn" data-name="Italian Pizza">+</button></div>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700" alt="Classic burger">
+                        <div class="food-info">
+                            <h3>Classic Burger</h3>
+                            <p>Juicy burger with fresh vegetables.</p>
+                            <div class="food-bottom"><strong>$10.00</strong><button class="add-btn" data-name="Classic Burger">+</button></div>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=700" alt="Grilled food">
+                        <div class="food-info">
+                            <h3>Grilled Special</h3>
+                            <p>Perfectly grilled and full of flavor.</p>
+                            <div class="food-bottom"><strong>$15.00</strong><button class="add-btn" data-name="Grilled Special">+</button></div>
+                        </div>
+                    </article>
+                </div>
+                <p class="cart-message" id="cartMessage" aria-live="polite">Your cart is empty.</p>
+            </div>
+        </section>
+
+<!-- Special Offers Section -->
+<section class="offers section-padding" id="offers">
+    <div class="container">
+
+        <div class="offer-box">
+
+            <div class="offer-content">
+                <span class="eyebrow">SPECIAL OFFER</span>
+
+                <h2>Delicious Taste, Amazing Deals!</h2>
+
+                <p>
+                    Enjoy your favorite meals with a special discount.
+                    Fresh food and unforgettable flavors are waiting for you.
+                </p>
+
+                <div class="discount">
+                    <strong>20%</strong>
+                    <span>OFF</span>
+                </div>
+
+                <a href="#menu" class="primary-btn">Order Now ↗</a>
+            </div>
+
+            <div class="offer-image">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=900"
+                     alt="Delicious special pizza offer">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Our Services Section -->
+<section class="services section-padding" id="services">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">OUR SERVICES</span>
+            <h2>We Serve You Better</h2>
+            <p>Enjoy delicious food your way.</p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon">🍽️</div>
+                <h3>Dine In</h3>
+                <p>Enjoy delicious meals in a comfortable restaurant environment.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🥡</div>
+                <h3>Take Away</h3>
+                <p>Get your favourite food packed fresh and ready to enjoy.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🛵</div>
+                <h3>Online Delivery</h3>
+                <p>Order your favourite dishes and enjoy them at home.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Table Reservation Section -->
+<section class="reservation section-padding" id="reservation">
+    <div class="container">
+
+        <div class="reservation-box">
+
+            <div class="reservation-content">
+                <span class="eyebrow">BOOK A TABLE</span>
+
+                <h2>Reserve Your Table Today</h2>
+
+                <p>
+                    Enjoy a wonderful dining experience with fresh food,
+                    amazing flavors and excellent service.
+                </p>
+
+                <div class="reservation-info">
+                    <div>✦ Freshly Prepared Meals</div>
+                    <div>✦ Comfortable Dining</div>
+                    <div>✦ Friendly Service</div>
+                </div>
+            </div>
+
+            <form class="reservation-form" id="reservationForm">
+
+                <h3>Make a Reservation</h3>
+
+                <input type="text"
+                       id="guestName"
+                       placeholder="Your Full Name"
+                       required>
+
+                <input type="email"
+                       id="guestEmail"
+                       placeholder="Your Email Address"
+                       required>
+
+                <div class="reservation-fields">
+                    <input type="date" id="bookingDate" required>
+                    <input type="time" id="bookingTime" required>
+                </div>
+
+                <select id="guestCount" required>
+                    <option value="">Number of Guests</option>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="5">5 Guests</option>
+                    <option value="6">6 Guests</option>
+                </select>
+
+                <textarea id="bookingMessage"
+                          placeholder="Special Request (Optional)"></textarea>
+
+                <button type="submit" class="primary-btn">
+                    Book A Table ↗
+                </button>
+
+                <p id="reservationMessage" aria-live="polite"></p>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Customer Reviews -->
+<section class="reviews section-padding" id="reviews">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">CUSTOMER FEEDBACK</span>
+            <h2>What Our Customers Say</h2>
+            <p>Real happiness, served with every meal.</p>
+        </div>
+
+        <div class="reviews-grid" id="reviewsGrid">
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"Amazing food and wonderful service. I really enjoyed my experience!"</p>
+                <h3>Ali Khan</h3>
+                <small>Happy Customer</small>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"The food was fresh, delicious and beautifully presented."</p>
+                <h3>Sara Ahmed</h3>
+                <small>Happy Customer</small>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"A lovely restaurant with great flavors. Highly recommended!"</p>
+                <h3>Usman Ali</h3>
+                <small>Happy Customer</small>
+            </div>
+        
+        </div>
+        <!-- Food Gallery -->
+<section class="gallery section-padding" id="gallery">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">OUR FOOD GALLERY</span>
+            <h2>A Feast for Your Eyes</h2>
+            <p>Explore our delicious food creations.</p>
+        </div>
+
+        
+<div class="gallery-grid">
+    <div class="gallery-track">
+
+        <!-- First set of photos -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" alt="Pizza">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" alt="Burger">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554" alt="Fresh Food">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="Pizza">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1" alt="Grilled Food">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Healthy Food">
+        </div>
+
+        <!-- Duplicate set for infinite movement -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" alt="Pizza">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" alt="Burger">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554" alt="Fresh Food">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="Pizza">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1" alt="Grilled Food">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Healthy Food">
+        </div>
+
+    </div>
+</div>
+
+            </div>
+
+        </div>
+    </div>
+
+<!-- Why Choose Us Section -->
+<section class="why-choose section-padding" id="why-choose">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">WHY CHOOSE US</span>
+            <h2>Why People Love Our Food</h2>
+            <p>Quality, taste and service that make every meal special.</p>
+        </div>
+
+        <div class="choose-grid">
+
+            <div class="choose-card">
+                <div class="choose-icon">✦</div>
+                <h3>Fresh Ingredients</h3>
+                <p>We use fresh and quality ingredients to prepare delicious meals every day.</p>
+            </div>
+
+            <div class="choose-card">
+                <div class="choose-icon">♨</div>
+                <h3>Expert Chefs</h3>
+                <p>Our skilled chefs prepare every dish with care, passion and perfection.</p>
+            </div>
+
+            <div class="choose-card">
+                <div class="choose-icon">➜</div>
+                <h3>Fast Delivery</h3>
+                <p>Enjoy your favorite food with convenient and quick delivery service.</p>
+            </div>
+
+            <div class="choose-card">
+                <div class="choose-icon">★</div>
+                <h3>Best Quality</h3>
+                <p>We focus on great taste, quality and customer satisfaction.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</section>
+
+        <form id="reviewForm" class="review-form">
+            <h2>Write a Review</h2>
+            <input type="text" id="reviewName" placeholder="Your Name" required>
+            <select id="reviewRating" required>
+                <option value="5">5 Stars ★★★★★</option>
+                <option value="4">4 Stars ★★★★</option>
+                <option value="3">3 Stars ★★★</option>
+                <option value="2">2 Stars ★★</option>
+                <option value="1">1 Star ★</option>
+            </select>
+            <textarea id="reviewText" placeholder="Write your review..." required></textarea>
+            <button type="submit" class="primary-btn">Submit Review</button>
+        </form>
+    </div>
+</section>
+
+        <section class="contact section-padding" id="contact">
+            <div class="container contact-box">
+                <span class="eyebrow">GET IN TOUCH</span>
+                <h2>Ready To Taste Something Amazing?</h2>
+                <p>We would love to serve you something delicious.</p>
+                <a href="mailto:hello@example.com" class="primary-btn">Contact Us ↗</a>
+            </div>
+        </section>
+    </main>
+    <!-- Newsletter Section -->
+<section class="newsletter">
+    <div class="newsletter-content">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get updates about our latest dishes and special offers.</p>
+
+        <form id="newsletterForm">
+            <input
+                type="email"
+                id="newsletterEmail"
+                placeholder="Enter your email address"
+                required
+            >
+
+            <button type="submit" class="primary-btn">
+                Subscribe
+            </button>
+        </form>
+
+        <p id="newsletterMessage"></p>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="#" class="logo">Delicious Food<span>.</span></a>
+            <p>© 2026 Delicious Food. All rights reserved.</p>
+        </div>
+        <!-- AK Studio Branding -->
+<div class="ak-branding">
+    <img src="https://thumbs.dreamstime.com/b/ak-245543835.jpg" alt="AK Studio Logo">
+
+    <p>
+        Designed & Developed by
+        <strong>AK Studio</strong>
+    </p>
+</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
