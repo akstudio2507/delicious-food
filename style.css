@@ -1,18 +1,16 @@
 :root {
-  --bg-color: #111111;
-  --bg-primary: #111111;
-  --bg-secondary: #1a1a1a;
-  --bg-card: #1a1a1a;
-  --primary-color: #f3b844;
-  --accent-color: #f3b844;
+  --bg: #111111;
+  --bg-dark: #111111;
+  --bg-light: #1a1a1a;
+  --surface: #1a1a1a;
+  --card: #1a1a1a;
   --primary: #f3b844;
-  --secondary-color: #d99b26;
-  --text-color: #ffffff;
-  --text-primary: #ffffff;
-  --text-secondary: #a0a0a0;
-  --text-muted: #a0a0a0;
-  --white: #ffffff;
-  --border-color: rgba(255, 255, 255, 0.12);
+  --accent: #f3b844;
+  --gold: #f3b844;
+  --text: #ffffff;
+  --text-light: #a3a3a3;
+  --muted: #a3a3a3;
+  --border: rgba(255, 255, 255, 0.1);
 }
 
 body {
