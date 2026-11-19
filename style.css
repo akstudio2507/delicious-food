@@ -1,6 +1,10 @@
-img {
-  filter: saturate(0.9) contrast(1.05) brightness(1.02) !important;
-  mix-blend-mode: normal !important;
+:root {
+  --bg-dark: #0f0f0f;
+  --bg-card: #1a1a1a;
+  --primary: #f59e0b;
+  --primary-hover: #d97706;
+  --text-light: #ffffff;
+  --text-muted: #a3a3a3;
 }
 
 body {
