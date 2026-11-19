@@ -1,6 +1,7 @@
 :root {
   --bg: #111111;
   --bg-dark: #111111;
+  --bg-color: #111111;
   --bg-light: #1a1a1a;
   --surface: #1a1a1a;
   --card: #1a1a1a;
@@ -8,6 +9,11 @@
   --accent: #f3b844;
   --gold: #f3b844;
   --text: #ffffff;
+  --text-color: #ffffff;
+  --heading: #ffffff;
+  --heading-color: #ffffff;
+  --title-color: #ffffff;
+  --white: #ffffff;
   --text-light: #a3a3a3;
   --muted: #a3a3a3;
   --border: rgba(255, 255, 255, 0.1);
