@@ -1,10 +1,6 @@
-:root {
-    --bg: #0B0B0B;
-    --card: #242424;
-    --gold: #E5A83B;
-    --cream: #F7F0E5;
-    --muted: #AAA49A;
-    --section: #191919;
+img {
+  filter: saturate(0.9) contrast(1.05) brightness(1.02) !important;
+  mix-blend-mode: normal !important;
 }
 
 body {
