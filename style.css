@@ -17,6 +17,44 @@
   --text-light: #a3a3a3;
   --muted: #a3a3a3;
   --border: rgba(255, 255, 255, 0.1);
+  /* Fix logo, hero heading, Discover More button, and Fresh & Tasty badge */
+header a,
+.logo,
+.navbar-brand,
+.hero h1,
+.hero-content h1,
+h1 {
+  color: #ffffff !important;
+}
+
+.hero h1 span,
+.hero-content h1 span,
+h1 span {
+  color: #f3b844 !important;
+}
+
+.btn-outline,
+.btn-secondary,
+a[href*="about"],
+.hero-btns a:last-child {
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+.floating-card,
+.badge-card,
+.hero-badge,
+.img-badge {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+}
+
+.floating-card *,
+.badge-card *,
+.hero-badge *,
+.img-badge * {
+  color: #111111 !important;
+}
 }
 
 body {
