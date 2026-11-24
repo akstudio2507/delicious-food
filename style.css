@@ -1,4 +1,81 @@
 :root {
+  :root {
+  --bg-dark: #0e0e0e;
+  --bg-main: #0e0e0e;
+  --bg-body: #0e0e0e;
+  --bg-card: #181818;
+  --primary: #eab349;
+  --accent: #eab349;
+  --gold: #eab349;
+  --text-white: #ffffff;
+  --text-main: #ffffff;
+  --heading-color: #ffffff;
+  --text-muted: #9e9e9e;
+  --border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Logo, Headings, Discover More button aur Fresh & Tasty badge ko exact is look mein lane ke liye */
+body {
+  background-color: #0e0e0e !important;
+  color: #ffffff !important;
+}
+
+header .logo,
+header a[class*="logo"],
+.navbar-brand,
+nav > a:first-child {
+  color: #ffffff !important;
+}
+
+header .logo span,
+nav > a:first-child span {
+  color: #eab349 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+h1 span {
+  color: #eab349 !important;
+}
+
+/* Discover More button */
+a[href*="about"],
+.btn-outline,
+.btn-secondary,
+.hero-buttons a:nth-child(2),
+.hero-btns a:nth-child(2) {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+/* Fresh & Tasty white card badge */
+[class*="badge"],
+[class*="card"][class*="float"],
+.hero-img > div,
+.hero-image > div {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
+}
+
+[class*="badge"] h4,
+[class*="badge"] strong,
+[class*="badge"] b,
+.hero-img > div h4,
+.hero-image > div h4 {
+  color: #111111 !important;
+}
+
+[class*="badge"] p,
+[class*="badge"] span,
+.hero-img > div p,
+.hero-image > div p {
+  color: #666666 !important;
+}
   --bg: #111111;
   --bg-dark: #111111;
   --bg-color: #111111;
